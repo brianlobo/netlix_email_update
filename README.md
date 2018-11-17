@@ -5,7 +5,7 @@ what is being added to Netflix this current month, as well as what
 is being removed.
 
 In 'send_email.py' just enter your email information.
-The email address that is sending the email must be "allow less secure apps".
+The email address that is sending the email must "allow less secure apps".
 
 ### Required Modules:
 BeautifulSoup4:
