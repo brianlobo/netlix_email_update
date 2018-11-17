@@ -7,6 +7,21 @@ is being removed.
 In 'send_email.py' just enter your email information.
 The email address that is sending the email must be "allow less secure apps".
 
+### Required Modules:
+BeautifulSoup4:
+```
+$ pip install beautifulsoup4
+```
+lxml:
+```
+$ pip install lxml
+```
+requests
+```
+$ pip install requests
+```
+
+
 To automate this script on unix systems:
 
 I created a file called execute.sh that ran the python interpreter inside its virtual environment and called the script:
@@ -17,7 +32,7 @@ execute.sh
 ```
 Then type this command in your terminal:
 ```
-crontab -e
+$ crontab -e
 ```
 In the file type:
 ```
